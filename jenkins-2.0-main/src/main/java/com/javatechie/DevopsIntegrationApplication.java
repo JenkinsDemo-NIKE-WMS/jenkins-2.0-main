@@ -13,7 +13,7 @@ public class DevopsIntegrationApplication {
 
 	@RequestMapping(path="", method = RequestMethod.GET, produces="application/json")
 	public String message(){
-		return "Welcome to Jenkins CI/CD Automation Demo";
+		return "Welcome To Jenkins CI/CD Automation Demo";
 	}
 
 	public static void main(String[] args) {
